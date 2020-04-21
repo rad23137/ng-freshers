@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class Assignment1Component {
 
+  text:string;
+  onInput(text:string)
+  {
+    this.text=text;
+
+  }
+
 }
